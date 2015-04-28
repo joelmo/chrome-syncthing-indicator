@@ -1,0 +1,20 @@
+{
+  "name": "Syncthing",
+  "version": "0.1",
+  "description": "Status indicator for Syncthing",
+  "permissions": [
+    "http://localhost:8080/"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+  "manifest_version": 2
+}
